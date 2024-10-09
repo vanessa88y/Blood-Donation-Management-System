@@ -1,0 +1,65 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+header{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section{
+    margin: 20px 0;
+
+}
+section h2{
+    color: black;
+}
+footer{
+    background-color: brown;
+    color: rgb(30, 29, 29);
+    text-align: center;
+    padding :10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom span {
+    font-weight: bold;
+}
+/* Styles for the links in the section for choosing activity */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section ul li a:hover {
+    color: #777;
+}
+
+
+
